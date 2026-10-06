@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Wallet base / card sleeve (Centered at 54, 54, bounds within 28..80) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M32,38 L72,38 A4,4 0 0,1 76,42 L76,44 L32,44 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,42 L76,42 A6,6 0 0,1 82,48 L82,68 A6,6 0 0,1 76,74 L28,74 A6,6 0 0,1 22,68 L22,48 A6,6 0 0,1 28,42 Z" />
+
+    <!-- Wallet flap & clasp -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M64,52 L82,52 L82,64 L64,64 A6,6 0 0,1 64,52 Z" />
+    <!-- Clasp metallic lock / dot -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M70,58 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+
+    <!-- AI Sparkle / Growth Star (Top Right) -->
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M74,32 Q74,37 79,37 Q74,37 74,42 Q74,37 69,37 Q74,37 74,32 Z" />
+    <path
+        android:fillColor="#6EE7B7"
+        android:pathData="M81,25 Q81,28 84,28 Q81,28 81,31 Q81,28 78,28 Q81,28 81,25 Z" />
+
+    <!-- Subtle chart trend line on the wallet front -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#059669"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,63 L42,57 L49,61 L60,53" />
+</vector>

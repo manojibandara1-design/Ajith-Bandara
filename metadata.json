@@ -1,0 +1,6 @@
+{
+  "name": "Budget AI",
+  "description": "Smart Money. Better Decisions. Offline-first personal finance and budgeting assistant with deterministic calculations and AI insights. Created by Ajith Bandara.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
